@@ -6,7 +6,7 @@ import SelectedItems from "./components/SelectedItems";
 
 const App = () => {
   return (
-    <BrowserRouter basename={"/"}>
+    <BrowserRouter basename={"/E-Kart"}>
     <Routes>
       <Route path="/" element={<Main/>}/>
       <Route path="/payment" element={<SelectedItems/>}/>
