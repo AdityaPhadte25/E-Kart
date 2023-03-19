@@ -1,0 +1,114 @@
+.header{
+    background-color: #1976D2;
+    height: 120px;
+}
+  
+.bgImage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px; 
+    height: 100px;
+    margin-left: 600px;
+}
+
+.table {
+    margin-top: 20px;
+    height: 425px;
+    width: 100%;
+}
+
+.table2 {
+    margin-top: 20px;
+    height: 425px;
+    width: 100%;
+}
+
+.payButton {
+    margin-left: 650px;
+}
+
+.total {
+    float: right;
+}
+
+.grid {
+   width: 300px;
+}
+
+.grid:hover{
+    cursor: pointer;
+}
+
+.divider{
+    margin-top: 10px;
+}
+
+.cardDetails{
+    padding: 10px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 843px) {
+    .bgImage{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px; 
+        height: 100px;
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .bgImage{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px; 
+        height: 100px;
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .bgImage{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px; 
+        height: 100px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .bgImage{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px; 
+        height: 100px;
+        margin-left: 105px;
+    }
+}
+
+@media screen and (max-width: 843px) {
+    .payButton{
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .payButton{
+        margin-left: 325px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .payButton{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .payButton{
+        margin-left: 130px;
+    }
+}
