@@ -25,6 +25,7 @@
 
 .payButton {
     margin-left: 650px;
+    margin-top: 20px;
 }
 
 .total {
@@ -92,23 +93,27 @@
 @media screen and (max-width: 843px) {
     .payButton{
         margin-left: 350px;
+        margin-top: 20px;
     }
 }
 
 @media screen and (max-width: 760px) {
     .payButton{
         margin-left: 325px;
+        margin-top: 20px;
     }
 }
 
 @media screen and (max-width: 470px) {
     .payButton{
         margin-left: 150px;
+        margin-top: 20px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .payButton{
         margin-left: 130px;
+        margin-top: 20px;
     }
 }
